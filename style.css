@@ -1,0 +1,1394 @@
+* {
+      margin: 0;
+      padding: 0;
+      border: border-box;
+      font-family:Arial, ;
+}
+
+main {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+                            /* header */
+
+.Navbar-First {
+      background-color: #0f1111;
+      height: 63px;
+      color: aliceblue;
+      display: flex;
+      align-items: center;
+}
+
+                           /* Amazon-Logo*/
+      
+.Amazon-Logo {
+      height: 65px;
+      width: 140px;   
+      background-color: black; 
+}
+
+.Logo {
+      background-image: url(/amazon_logo.png);
+      background-size: cover;
+      height: 65px;
+      width: 100%;
+}    
+
+.Border {
+      border: 0.5px solid transparent;
+}
+
+.Border:hover {
+      border: 0.5px solid white;
+}
+
+                            /* Nav-Address */  
+
+.Nav-Address {
+      color: #FFFFFF;
+      text-decoration: none;
+      margin: 5px 2px 5px 0px;
+      padding: 8px 5px;
+      display: flex;
+}
+
+.Address-icon  {
+     display: flex;
+     align-items: end;
+     font-size: 18px;
+     font-weight: 600;
+}
+
+.Add-Location .Add-Name {
+      color: #CCCCCC;
+      font-size: 12.5px;
+}
+
+.Add-Location .Add-Pincode {
+      display: flex;
+      font-size: 17px;
+      color: #FFFFFF;
+}
+
+                               /* Nav-Search-Bar */
+
+.Nav-Search {
+      display: flex;
+      height: 40px;
+      width: 830px;
+      border-radius: 4px;
+      justify-content: space-evenly;
+      border: 1.5px solid transparent;
+      margin: 0px 12px 0 6px;
+}
+
+.All-Option {
+      background-color: #FFFFFF;
+      text-align: center;
+      font-size: 14px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border: none;
+      width: 50px;
+}
+
+.Search-Input {
+      width: 100%;
+      font-size: 17px;
+      border: none;
+}
+
+.Search-Icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      width: 50px;
+      background-color: rgb(255, 174, 0);
+      color: black;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+}
+
+.Search-Icon:hover {
+      background-color: rgb(255, 145, 0) ;
+}
+
+.Nav-Search:hover {
+      border: 1.5px solid rgb(255, 145, 0);
+}
+
+                              /* Nav-language */
+.Nav-Language {
+       text-decoration: none;
+       display: flex;
+       gap: 6px;
+       align-items: center;
+       padding: 10px 2px;
+       margin:0 10px 0 3px;
+       position: relative;
+       top: 6px;
+}
+
+.Nav-Language .Flag{
+        height: 14px;
+}
+
+.Nav-Language span{
+        color: #FFFFFF;
+        font-size: 14px;
+}
+
+.Nav-Language .Language-Option {
+         background-color: transparent;
+         border: none;
+         color: #FFFFFF;  
+         height: 18px;
+         width: 10px;
+}
+                               /* Nav-Account */  
+
+.Nav-Account {
+       color: #FFFFFF; 
+       text-decoration: none;
+       padding: 9px 4px;     
+}
+
+.Customer-Ac-Name-Container {
+      display: flex;
+}
+
+.Customer-Ac-Name{
+      font-size: 13px; 
+}
+
+.Account-Option .Customer-Ac-Detail{
+      font-size: 15px; 
+      font-weight: 600;
+}
+
+.Account-Option select{
+         background-color: transparent;
+         border: none;
+         color: #FFFFFF;  
+         height: 18px;
+         width: 10px;
+}
+                                /* Nav-orders */
+                            
+.Nav-Orders  {
+       color: #FFFFFF;
+       text-decoration: none;
+       display: flex;
+       flex-direction: column;
+       padding: 11px 12px; 
+}
+
+.Customer-Return {
+      font-size: 14px;
+}  
+
+.Customer-Order {
+     font-size: 16px;  
+     font-weight: 600;  
+}
+
+                                  /* Nav-Cart */
+ 
+.Nav-Cart {
+      display: flex;
+      text-decoration: none;
+      color: #FFFFFF;
+      padding: 5px 7px; 
+}  
+
+.Cart {
+      display: flex;
+      align-items: end;
+      font-size: 15px;
+      font-weight: 600;
+}
+
+.Nav-Cart i {
+      font-size: 40px; 
+} 
+
+                           /* Nav-Second-Section */
+
+.Nav-Second-Section {
+      height: 40px;
+      background-color: #222f3d ;
+      display: flex;
+}     
+
+                           /* Nav-second-Left-Section */
+
+.Nav-second-Left-Section {
+     display: flex;
+     align-items: center; 
+}
+
+.All-Section {
+      color: #FFFFFF;
+      text-decoration: none;
+      margin-right: 20px;
+      padding: 7px 6px;
+}
+
+.All-Section i {
+      margin-left:18px;
+      margin-right: 2px;
+      font-size: 18px;
+}
+
+.All-Section span {
+      font-size: 14px;   
+}
+                           /* Nav-second-Right-Section  */
+
+
+.Nav-second-Right-Section {
+     display: flex;
+    
+}
+
+.Nav-second-Right-Section ul{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+
+.Nav-second-Right-Section li{
+     display: flex;
+     align-items: center;
+     list-style: none;
+}
+
+.Nav-second-Right-Section li a{
+     display: flex;
+     align-items: center;
+     color: #FFFFFF;
+     text-decoration: none;    
+     padding: 9px 6px;    
+}
+
+.Nav-second-Right-Section select {
+      background-color: transparent;
+      border: none;
+      color: #FFFFFF;  
+      height: 15px;
+      width: 10px;
+      transform: translate(-2px,2px);
+}
+
+
+                              /* Amazon-Launch-Tab */
+
+.Amazon-Launch{
+      height: 350px;
+      width: 1520px;
+      display: flex;
+      justify-content: center;
+}   
+
+.Samsung-img {
+      height: 600px;
+      width: 99%;
+      background-image: url("/Samsung-Launch-img.jpg"); 
+      background-size: cover;
+}
+
+
+                                         /* Amazon-Container-1 */
+
+.Contant-Container-1 {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      position: relative;
+      top: -50px;
+}
+
+                        /* box-1 */
+
+.box-1-Heading {
+      text-align: center;
+      font-size: 25px;
+      margin: 18px -10px;
+}
+
+.box-1 {
+     height: 430px;
+     width: 345px;
+     border: 2px solid rgb(221, 213, 213);
+     background-color: #FFFFFF;
+}
+
+.box-1 a{
+     color: #0f1111;
+     text-decoration: none;
+}
+
+.Contant-section-1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;   
+      width: 350px;
+      height: 320px;
+}
+
+.img-1 img{
+      height: 90px;
+}
+
+.img-2 img{
+      height: 90px;
+}
+
+.img-3 img{
+      height: 120px;
+}
+
+.img-4 img{
+      height: 120px;
+}
+
+.product-1-Name {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 15px;
+}
+
+
+.Option-1 {
+      font-size: 14px;
+      border: none;
+      padding: 10px;
+}
+
+.Option-1 a{
+      color: #2162A1;
+}
+  
+
+                                    /* box-2 */
+
+.Contant-Container-2 {
+      display: flex;
+}
+
+.box-2 {
+     height: 430px;
+     width: 345px;
+     border: 2px solid rgb(221, 213, 213);
+     background-color: #FFFFFF;
+}
+
+.box-2-Heading {
+      text-align: center;
+      font-size: 25px;
+      margin: 18px -10px;
+}
+
+.box-2 a{
+     color: #0f1111;
+     text-decoration: none;
+}
+
+.Contant-section-2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;   
+      width: 350px;
+      height: 320px;
+}
+
+.img-5 img{
+      height: 85px;
+}
+
+.img-6 img{
+      height: 85px;
+}
+
+.img-7 img{
+      height: 120px;
+}
+
+.img-8 img{
+      height: 120px;
+}
+
+.product-2-Name {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 15px;
+}
+
+.Option-2 {
+      font-size: 14px;
+      border: none;
+      padding: 10px;
+}
+
+.Option-2 a{
+      color: #2162A1;
+}   
+
+
+
+                                        /* box-3 */
+
+.Contant-Container-3 {
+      display: flex;
+}
+
+
+.box-3-Heading {
+      text-align: center;
+      font-size: 25px;
+      margin: 18px -10px;
+}
+
+.box-3 {
+     height: 430px;
+     width: 345px;
+     border: 2px solid rgb(221, 213, 213);
+     background-color: #FFFFFF;
+}
+
+.box-3 a{
+     color: #0f1111;
+     text-decoration: none;
+}
+
+.Contant-section-3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;
+      width: 350px;
+      height: 340px;
+}
+
+.img-9 img{
+      height: 100px;
+}
+
+.img-10 img{
+      height: 100px;
+}
+
+.img-11 img{
+      height: 100px;
+}
+
+.img-12 img{
+      height: 100px;
+}
+
+.product-3-Name {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 15px;
+}
+
+
+                                /* box-4 */
+.box-4 {
+     height: 140px;
+     width: 350px;
+     border: 2px solid rgb(221, 213, 213);
+     background-color: #FFFFFF;
+}
+
+.Add-Contant {
+      display: flex;
+      padding: 28px 20px 20px;
+      align-content: center;
+}
+
+
+.Left-Add-Detail .Add-Name h3 span {
+      font-size: 22px;
+}
+
+.Add-Button .Add-Option a{
+     text-decoration: none;
+     color: #2162A1;
+     font-size: 14px;
+     margin-top: 10px;
+}
+
+.Add-Option {
+      border: none;
+      margin-top: 15px;
+}
+
+.Right-Add-Detail .Add-Img img{
+      height: 93px;
+      width: 93px;
+}
+
+
+.Add-2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 22px;
+}
+
+.Add-2 .Add-2-Img img{
+      height: 265px;
+      width: 300px;
+}
+
+                                /* Sponsored-Option */
+
+.Sponsored-Option {
+      display: flex;
+      justify-content: end;
+      position: relative;
+      right: 50px;
+      bottom: 46px;
+}
+
+.Sponsored-Option a {
+      text-decoration: none;
+      color: #555555;   
+      font-size: 14px;  
+}
+
+                                       /* Amazon-Container-2 */
+
+.Contant-Container-2 {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      position: relative;
+      bottom: 40px;
+}
+
+                        /* box-5 */
+
+.box-5-Heading {
+      text-align: center;
+      font-size: 23px;
+      margin: 18px -10px;
+}
+
+.box-5 {
+     height: 430px;
+     width: 345px;
+     border: 2px solid rgb(221, 213, 213);
+     background-color: #FFFFFF;
+}
+
+.box-5 a{
+     color: #0f1111;
+     text-decoration: none;
+}
+
+.Contant-section-5 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;   
+      width: 350px;
+      height: 300px;
+}
+
+.img-13 img{
+      height: 90px;
+}
+
+.img-14 img{
+      height: 90px;
+}
+
+.img-15 img{
+      height: 100px;
+}
+
+.img-16 img{
+      height: 100px;
+}
+
+.product-5-Name {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 15px;
+}
+
+
+.Option-5 {
+      font-size: 14px;
+      border: none;
+      padding: 10px;
+}
+
+.Option-5 a{
+      color: #2162A1;
+}
+  
+
+                                    /* box-6 */
+
+.Contant-Container-6 {
+      display: flex;
+}
+
+.box-6 {
+     height: 430px;
+     width: 345px;
+     border: 2px solid rgb(221, 213, 213);
+     background-color: #FFFFFF;
+}
+
+.box-6-Heading {
+      text-align: center;
+      font-size: 25px;
+      margin: 19px -10px;
+}
+
+.box-6 a{
+     color: #0f1111;
+     text-decoration: none;
+}
+
+.Contant-section-6 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;   
+      width: 350px;
+      height: 320px;
+}
+
+.img-17 img{
+      height: 90px;
+}
+
+.img-18 img{
+      height: 90px;
+}
+
+.img-19 img{
+      height: 90px;
+}
+
+.img-20 img{
+      height: 90px;
+}
+
+.product-6-Name {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 15px;
+}
+
+.Option-6 {
+      font-size: 14px;
+      border: none;
+      padding: 10px;
+}
+
+.Option-6 a{
+      color: #2162A1;
+}   
+
+
+
+                                        /* box-7 */
+
+.Contant-Container-7 {
+      display: flex;
+}
+
+
+.box-7-Heading {
+      text-align: center;
+      font-size: 25px;
+      margin: 15px -10px;
+}
+
+.box-7 {
+     height: 430px;
+     width: 345px;
+     border: 2px solid rgb(221, 213, 213);
+     background-color: #FFFFFF;
+}
+
+.box-7 a{
+     color: #0f1111;
+     text-decoration: none;
+}
+
+.Contant-section-7 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;
+      width: 350px;
+      height: 300px;
+}
+
+.img-21 img{
+      height: 140px;
+}
+
+.img-22 img{
+      height: 130px;
+}
+
+.img-23 img{
+      height: 80px;
+}
+
+.img-24 img{
+      height: 100px;
+}
+
+.product-7-Name {
+      font-size: 17px;
+}
+
+.Option-7 {
+      font-size: 14px;
+      border: none;
+      padding: 10px;
+}
+
+.Option-7 a{
+      color: #2162A1;
+} 
+
+                                      /* box-8 */
+
+.Contant-Container-8 {
+      display: flex;
+}
+
+
+.box-8-Heading {
+      text-align: center;
+      font-size: 23px;
+      margin: 18px -10px;
+}
+
+.box-8 {
+     height: 430px;
+     width: 345px;
+     border: 2px solid rgb(221, 213, 213);
+     background-color: #FFFFFF;
+}
+
+.box-8 a{
+     color: #0f1111;
+     text-decoration: none;
+}
+
+.Contant-section-8 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;
+      width: 350px;
+      height: 300px;
+}
+
+.img-25 img{
+      height: 90px;
+}
+
+.img-26 img{
+      height: 90px;
+}
+
+.img-27 img{
+      height: 100px;
+}
+
+.img-28 img{
+      height: 100px;
+}
+
+.product-8-Name {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 15px;
+}
+
+.Option-8 {
+      font-size: 14px;
+      border: none;
+      padding: 10px;
+}
+
+.Option-8 a{
+      color: #2162A1;
+} 
+
+                               /* box-9  */
+
+.box-9 {
+     height: 270px;
+     width: 1458px;
+     border: 2px solid rgb(221, 213, 213);
+     margin-bottom: 30px;
+}  
+
+.Contant-Heading-Or-option {
+      display: flex;
+}
+
+.box-9-Heading {
+      font-size: 30px;
+      margin: 15px 20px;
+}
+
+.Option-9 {
+      font-size: 14px;
+      border: none;
+      padding: 10px;
+}
+
+.Option-9 a{
+      color: #2162A1;
+      text-decoration: none;
+}
+
+.Contant-section-9 {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;   
+      margin-top: 20px;
+}
+
+.img-29 img{
+      height: 160px;
+}
+
+.img-30 img{
+      height: 120px;
+}
+
+.img-31 img{
+      height: 170px;
+}
+
+.img-32 img{
+      height: 170px;
+}
+
+.img-33 img{
+      height: 170px;
+}
+
+.img-34 img{
+      height: 170px;
+}
+
+.img-35 img{
+      height: 170px;
+}
+   
+
+                                 /* footer*/
+
+                                  /* Footer-Top-First-Row */
+                              
+.Footer-Top-First-Row  {
+      background-color: #37475A;
+      height: 60px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+}  
+
+.Footer-Top-First-Row  a {
+      color: #FFFFFF;
+      text-decoration: none;
+} 
+
+                               /* Footer-Top-Second-Row-Socal-details */
+
+.Socal-details {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      background-color: #222f3d;
+      height: 460px;
+      padding: 0px 100px ;
+}
+
+.Socal-details li {
+      list-style: none;
+}
+
+.Socal-details a {
+      color: #DDDDDD;
+      text-decoration: none;
+      font-size: 1rem;
+}
+
+.Socal-details ul {
+      transform: translateY(50px);
+}
+
+.Socal-details p {
+      transform: translateY(48px);
+      color: #FFFFFF;
+      font-weight: 550px;
+      font-size: 1.2rem;
+      margin: 0px 0px 7px;
+}
+
+                             /* Footer-Bottom-Third-Row-Select-country-option  */
+
+.Select-country-option {
+      height: 140px;
+      background-color: #222f3d;
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0 342px;
+}
+
+
+.Amazon-footer-Logo div {
+      height: 60px;
+      width: 130px;
+      background-color: #222f3d;
+      background-image: url("/Amazon-footer-logo.png");
+      background-size: cover;
+}
+
+
+.Footer-language-option  {
+         border: 0.2px solid wheat;
+         padding: 4px 23px 4px;
+         border-top-right-radius: 3px;
+         border-bottom-right-radius: 3px;
+         border-top-left-radius: 3px;
+         border-bottom-left-radius: 3px;
+} 
+
+.Footer-language-option i {
+         color: #FFFFFF;
+         transform: translate(-10px);
+         font-size: 0.8rem;
+}  
+
+.Footer-language-option span {
+         color: #CCCCCC;
+         position: relative;
+         right: 6px;
+         font-size: 0.9rem;
+}  
+
+.Footer-language-option select {
+         height: 20px;
+         width: 20px;
+         font-size: 10px;
+         color: #f2f6f6;
+         transform: translate(14px);
+         background-color: transparent;
+         border: none;
+}  
+
+.Footer-country-logo  {
+        display: flex;
+        border: 0.8px solid wheat;
+        padding: 8px 25px 4px 12px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;   
+        transform: translate(-85px);   
+}   
+
+
+.Footer-country-logo img {
+        height: 13px;
+        margin: 0 0 0 5px;
+        transform: translate(-6px);
+}   
+
+.Footer-country-logo span {
+       color: #CCCCCC; 
+       transform: translate(0,-3px);
+       font-size: 0.9rem;
+}      
+
+                             /* Footer-Bottom-Last-Row-Amazon-links */
+
+.Amazon-footer-links {
+      background-color: #131A22;
+      height: 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+} 
+
+.Footer-links-1 {
+      color: #DDDDDD;
+      display: flex;
+      padding: 0px 400px;
+      gap: 12px;
+}
+
+.Footer-links-2 {
+      color: #DDDDDD;
+      display: flex;
+      padding: 0px 490px;
+      margin: 5px;
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1366px) {
+
+                             /* Nav-Search-Bar */
+
+.Nav-Search {
+      display: flex;
+      height: 40px;
+      width: 318px;
+      border-radius: 4px;
+      justify-content: space-evenly;
+      border: 1.5px solid transparent;
+      margin: 0px 12px 0 6px;
+}
+
+ /* Nav-Second-Section */
+
+.Nav-Second-Section {
+      height: 40px;
+      background-color: #222f3d ;
+      display: flex;
+}     
+                           /* Nav-second-Right-Section  */
+
+
+.Nav-second-Right-Section {
+     display: flex;
+    
+}
+
+.Nav-second-Right-Section ul li .Kiyanshu a{
+      display: none;
+}
+
+.Nav-second-Right-Section ul li .Gift-Ideas a{
+      display: none;
+}
+
+                /* Amazon-Launch-Tab */
+
+.Amazon-Launch{
+      height: 350px;
+      width: 1520px;
+      display: flex;
+      justify-content: center;
+}   
+
+.Samsung-img {
+      height: 600px;
+      width: 100%;
+      background-image: url("/Samsung-Launch-img.jpg"); 
+      background-size: cover;
+}
+
+                               /* Footer-Top-Second-Row-Socal-details */
+
+.Socal-details {
+      display: flex;
+      justify-content: space-between;
+}
+
+                             /* Footer-Bottom-Third-Row-Select-country-option  */
+
+.Select-country-option {
+      height: 140px;
+      background-color: #222f3d;
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0 34px;
+}
+
+                             /* Footer-Bottom-Last-Row-Amazon-links */
+
+.Amazon-footer-links {
+      background-color: #131A22;
+      height: 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+} 
+
+.Footer-links-1 {
+      color: #DDDDDD;
+      display: flex;
+      padding: 0px 40px;
+      gap: 12px;
+}
+
+.Footer-links-2 {
+      color: #DDDDDD;
+      display: flex;
+      padding: 0px 40px;
+      justify-content: center;
+}
+
+
+}
+
+
+@media only screen and (min-width:390px) and (max-width:844px) {
+
+.Navbar-First {
+      background-color: #0f1111;
+      height: 63px;
+      width: 121.1vh;
+      color: aliceblue;
+      display: flex;
+      align-items: center;
+}    
+                             /* Nav-Search-Bar */
+
+.Nav-Search {
+      display: flex;
+      height: 40px;
+      width: 318px;
+      border-radius: 4px;
+      justify-content: space-evenly;
+      border: 1.5px solid transparent;
+      margin: 0px 12px 0 6px;
+}
+
+ /* Nav-Second-Section */
+
+.Nav-Second-Section {
+      height: 40px;
+      width: 121.1vh;
+      background-color: #222f3d ;
+      display: flex;
+}     
+                           /* Nav-second-Right-Section  */
+
+
+.Nav-second-Right-Section {
+     display: flex;
+    
+}
+
+.Nav-second-Right-Section ul li .Kiyanshu a{
+      display: none;
+}
+
+.Nav-second-Right-Section ul li .Gift-Ideas a{
+      display: none;
+}
+
+                /* Amazon-Launch-Tab */
+
+.Amazon-Launch{
+      height: 350px;
+      width: 1520px;
+      display: flex;
+      justify-content: center;
+}   
+
+.Samsung-img {
+      height: 600px;
+      width: 100%;
+      background-image: url("/Samsung-Launch-img.jpg"); 
+      background-size: cover;
+}
+
+                                  /* Footer-Top-First-Row */
+                              
+.Footer-Top-First-Row  {
+      background-color: #37475A;
+      height: 60px;
+      width: 121.1vh;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+} 
+
+                               /* Footer-Top-Second-Row-Socal-details */
+
+.Socal-details {
+      display: flex;
+      justify-content: space-between;
+      width: 103vh;
+}
+
+                             /* Footer-Bottom-Third-Row-Select-country-option  */
+
+.Select-country-option {
+      height: 140px;
+      width: 121.1vh;
+      background-color: #222f3d;
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0 34px;
+}
+
+                             /* Footer-Bottom-Last-Row-Amazon-links */
+
+.Amazon-footer-links {
+      background-color: #131A22;
+      height: 100px;
+      width: 121.1vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+} 
+
+.Footer-links-1 {
+      color: #DDDDDD;
+      width: 121.1vh;
+      display: flex;
+      padding: 0px 270px;
+      gap: 12px;
+}
+
+.Footer-links-2 {
+      color: #DDDDDD;
+      width: 121.1vh;
+      display: flex;
+      padding: 0px 40px;
+      justify-content: center;
+}
+
+
+}
+
+@media only screen and (min-width:412px) and (max-width:915px) {
+
+
+.Navbar-First {
+      height: 63px;
+      width: 121.1vh;
+}    
+                             /* Nav-Search-Bar */
+
+.Nav-Search {
+      display: flex;
+      height: 40px;
+      width: 340px;
+      border-radius: 4px;
+      justify-content: space-evenly;
+      border: 1.5px solid transparent;
+      margin: 0px 12px 0 6px;
+}
+
+ /* Nav-Second-Section */
+
+.Nav-Second-Section {
+      height: 40px;
+      width: 121.1vh;
+      background-color: #222f3d ;
+      display: flex;
+}     
+                           /* Nav-second-Right-Section  */
+
+
+.Nav-second-Right-Section {
+     display: flex;
+    
+}
+
+.Nav-second-Right-Section ul li .Kiyanshu a{
+      display: none;
+}
+
+.Nav-second-Right-Section ul li .Gift-Ideas a{
+      display: none;
+}
+
+                /* Amazon-Launch-Tab */
+
+.Amazon-Launch{
+      height: 350px;
+      width: 1520px;
+      display: flex;
+      justify-content: center;
+}   
+
+.Samsung-img {
+      height: 600px;
+      width: 100%;
+      background-image: url("/Samsung-Launch-img.jpg"); 
+      background-size: cover;
+}
+
+                                  /* Footer-Top-First-Row */
+                              
+.Footer-Top-First-Row  {
+      background-color: #37475A;
+      height: 60px;
+      width: 112.4vh;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+} 
+
+                               /* Footer-Top-Second-Row-Socal-details */
+
+.Socal-details {
+      display: flex;
+      justify-content: space-around;
+      width: 90.5vh;
+}
+
+                             /* Footer-Bottom-Third-Row-Select-country-option  */
+
+.Select-country-option {
+      height: 140px;
+      width: 104.7vh;
+      background-color: #222f3d;
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 0 34px;
+}
+
+                             /* Footer-Bottom-Last-Row-Amazon-links */
+
+.Amazon-footer-links {
+      background-color: #131A22;
+      height: 100px;
+      width: 112.2vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+} 
+
+.Footer-links-1 {
+      color: #DDDDDD;
+      width: 88.6vh;
+      display: flex;
+}
+
+.Footer-links-2 {
+      color: #DDDDDD;
+      width: 105.1vh;
+}
+
+}
+
+
+
